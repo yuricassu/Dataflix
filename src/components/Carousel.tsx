@@ -72,7 +72,7 @@ export default function Carousel() {
             className="w-full flex-shrink-0 relative bg-black aspect-[16/9] sm:aspect-[4/3] max-h-[500px] flex items-center justify-center"
           >
             {/* Gradiente sobre a imagem */}
-            <div className="absolute inset-0 bg-ransparent z-10"></div>
+            <div className="absolute inset-0 bg-transparent z-10"></div>
 
             <img
               src={item.image}
@@ -80,9 +80,9 @@ export default function Carousel() {
               className="w-full h-full object-contain"
             />
 
-            {/* Conteúdo sobre a imagem */}
+            {/* Conteúdo sobre a imagem (oculto no mobile) */}
             <div className="absolute inset-0 flex items-center z-20">
-              <div className="ml-4 sm:ml-8 mr-4 sm:mr-8 text-white max-w-2xl">
+              <div className="hidden sm:block ml-4 sm:ml-8 mr-4 sm:mr-8 text-white max-w-2xl">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 sm:mb-4">
                   {item.title}
                 </h2>
