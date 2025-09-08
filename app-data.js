@@ -33,7 +33,7 @@ const curso = [
   {
     nome_do_curso: 'Curso Básico Power BI 2025 Hashtag Treinamento',
     descrição: 'Curso de Power BI Hashtag Treinamentos – Atualizado para 2025, Aprenda a analisar dados, criar dashboards e se destacar no mercado com a versão mais completa e atual do Power BI.',
-    imagem: 'https://images2.imgbox.com/b6/16/AVRJ9RKu_o.png',
+    imagem: 'https://images2.imgbox.com/a3/8b/gaANmbv5_o.png',
     link: 'https://www.youtube.com/playlist?list=PLxjKFMYkZ9OdI5b7egO3t5xFbTUhuw-vE',
     ferramenta: 'Power bi',
     tipo: 'Curso'
@@ -363,7 +363,7 @@ const featured = [
   {
     nome_do_curso: 'Power BI Simplificado Dadocratiza',
     descrição: 'Domine o Power BI desde o zero!',
-    imagem: 'https://images2.imgbox.com/ff/db/RGuYsFNK_o.png',
+    imagem: 'https://images2.imgbox.com/a3/8b/gaANmbv5_o.png',
     link: '/courses/2',
     tipo: 'Curso'
   },
