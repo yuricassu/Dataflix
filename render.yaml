@@ -1,9 +1,7 @@
 services:
   - type: web
-    name: minha-aplicacao-node
+    name: course-site
     env: node
+    buildCommand: "npm install && npm run build"
+    startCommand: "npm start"
     plan: free
-    branch: main
-    buildCommand: npm install
-    startCommand: npm run dev
-    autoDeploy: true
