@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: minha-aplicacao-node
-    env: node
-    plan: free
-    branch: main
-    buildCommand: npm install
-    startCommand: npm run dev
-    autoDeploy: true
