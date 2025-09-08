@@ -41,7 +41,7 @@ const curso = [
    {
     nome_do_curso: 'Power BI Simplificado Dadocratiza',
     descrição: 'Domine o Power BI desde o zero!\nAprenda a importar dados, criar relatórios profissionais e publicar no Power BI Online. Transforme informações em insights e se destaque no mercado.',
-    imagem: 'https://images2.imgbox.com/a3/8b/gaANmbv5_o.png',
+    imagem: 'https://images2.imgbox.com/8c/ba/65uhT1aq_o.png',
     link: 'https://www.youtube.com/playlist?list=PLi-20jnoosOckR6DnT28_-41Xxs19IUYg',
     ferramenta: 'Power bi',
     tipo: 'Curso'
@@ -363,14 +363,14 @@ const featured = [
   {
     nome_do_curso: 'Power BI Simplificado Dadocratiza',
     descrição: 'Domine o Power BI desde o zero!',
-    imagem: 'https://images2.imgbox.com/a3/8b/gaANmbv5_o.png',
+    imagem: 'https://images2.imgbox.com/8c/ba/65uhT1aq_o.png',
     link: '/courses/2',
     tipo: 'Curso'
   },
   {
     nome_do_curso: 'Mini Curso de Power BI – com Karine Lagos',
     descrição: 'Aprenda, em poucas aulas, como transformar dados em dashboards',
-    imagem: 'https://images2.imgbox.com/be/8f/gMuY0EM2_o.png',
+    imagem: 'https://images2.imgbox.com/c3/3c/CZaOMrgT_o.png',
     link: '/courses/3',
     tipo: 'Curso'
   },
@@ -378,21 +378,21 @@ const featured = [
   {
     nome_do_curso: 'DAX Studio',
     descrição: 'A ferramenta definitiva para trabalhar com DAX!',
-    imagem: 'https://images2.imgbox.com/43/2d/RmGpuBXD_o.png',
+    imagem: 'https://images2.imgbox.com/45/61/hgz0qLHu_o.png',
     link: '/tools/3',
     tipo: 'Ferramenta'
   },
   {
     nome_do_curso: ' Minicurso Gratuito de Power BI Xperiun',
     descrição: ' Aprenda os conceitos essenciais de Power BI e crie dashboards',
-    imagem: 'https://images2.imgbox.com/7f/5a/44lj6MNj_o.png',
+    imagem: 'https://images2.imgbox.com/04/58/7SAsubzt_o.png',
     link: '/courses/6',
     tipo: 'Ferramenta'
   },
     {
     nome_do_curso: 'Power BI e Clean Code',
     descrição: ' Power BI + Clean Code: aprenda a criar um ambiente de BI otimizado',
-    imagem: 'https://images2.imgbox.com/cf/53/hps7V9BD_o.png',
+    imagem: 'https://images2.imgbox.com/56/b5/sZzwLxaV_o.png',
     link: '/books/1',
     tipo: 'Livro'
   },
