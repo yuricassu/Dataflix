@@ -41,7 +41,7 @@ const curso = [
    {
     nome_do_curso: 'Power BI Simplificado Dadocratiza',
     descrição: 'Domine o Power BI desde o zero!\nAprenda a importar dados, criar relatórios profissionais e publicar no Power BI Online. Transforme informações em insights e se destaque no mercado.',
-    imagem: 'https://images2.imgbox.com/bc/7e/2jJS3QkQ_o.png',
+    imagem: 'https://images2.imgbox.com/ff/db/RGuYsFNK_o.png',
     link: 'https://www.youtube.com/playlist?list=PLi-20jnoosOckR6DnT28_-41Xxs19IUYg',
     ferramenta: 'Power bi',
     tipo: 'Curso'
@@ -363,7 +363,7 @@ const featured = [
   {
     nome_do_curso: 'Power BI Simplificado Dadocratiza',
     descrição: 'Domine o Power BI desde o zero!',
-    imagem: 'https://images2.imgbox.com/d6/15/Ie4wHqB7_o.png',
+    imagem: 'https://images2.imgbox.com/ff/db/RGuYsFNK_o.png',
     link: '/courses/2',
     tipo: 'Curso'
   },
@@ -394,6 +394,13 @@ const featured = [
     descrição: ' Power BI + Clean Code: aprenda a criar um ambiente de BI otimizado',
     imagem: 'https://images2.imgbox.com/cf/53/hps7V9BD_o.png',
     link: '/books/1',
+    tipo: 'Livro'
+  },
+      {
+    nome_do_curso: 'Documentador de Power BI Dataflix',
+    descrição: 'Documentador de Power BI',
+    imagem: 'https://images2.imgbox.com/73/2a/2BALHK4s_o.png',
+    link: '/tools/1',
     tipo: 'Livro'
   }
 ];
