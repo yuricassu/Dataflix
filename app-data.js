@@ -130,7 +130,7 @@ const curso = [
     nome_do_curso: 'Cursos Completo SQL - do Zero ao Avançado Bóson Treinamentos',
     descrição: 'Curso Completo de SQL – Bóson Treinamentos Aprenda SQL do zero ao avançado e domine consultas, manipulação de dados e bancos de dados como um verdadeiro profissional.',
     imagem: 'https://i.ytimg.com/vi/KOhd3R5kLks/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBHPvR0AOFUuK6O7X5XhsCBIbL4oA',
-    link: 'http://youtube.com/playlist?list=PLucm8g_ezqNrGZdu6TLlCf6ESqZ5P92z_',
+    link: 'https://www.youtube.com/playlist?list=PLucm8g_ezqNrGZdu6TLlCf6ESqZ5P92z_',
     ferramenta: 'SQL',
     tipo: 'Curso'
   },
