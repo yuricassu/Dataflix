@@ -182,6 +182,14 @@ const curso = [
     ferramenta: 'Python',
     tipo: 'Curso'
   },
+    {
+    nome_do_curso: 'Curso: Introdução ao Python Data Engineer Help',
+    descrição: 'Curso inicial que ensina os fundamentos da linguagem Python Data Engineer Help',
+    imagem: 'https://images2.imgbox.com/ad/e3/LRtuZRrX_o.png',
+    link: 'https://www.youtube.com/playlist?list=PLRCKdG6PaMS3VK3ef5tBYtuLF3Tj2htuQ',
+    ferramenta: 'Python',
+    tipo: 'Curso'
+  },
   {
     nome_do_curso: 'Curso de Python moderno + Análise de dados DataV',
     descrição: 'Python Moderno + Análise de Dados – DataV Aprenda Python moderno e análise de dados de forma prática, criando insights e relatórios que impressionam desde o início.',
