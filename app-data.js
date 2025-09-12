@@ -183,6 +183,30 @@ const curso = [
     tipo: 'Curso'
   },
   {
+    nome_do_curso: 'Curso: Introdução ao Python Data Engineer Help',
+    descrição: 'Curso inicial que ensina os fundamentos da linguagem Python Data Engineer Help',
+    imagem: 'https://images2.imgbox.com/ad/e3/LRtuZRrX_o.png',
+    link: 'https://www.youtube.com/playlist?list=PLRCKdG6PaMS3VK3ef5tBYtuLF3Tj2htuQ',
+    ferramenta: 'Python',
+    tipo: 'Curso'
+  },
+  {
+    nome_do_curso: 'Curso: Pandas para Engenharia de Dados Data Engineer Help',
+    descrição: 'Domine a biblioteca Pandas e transforme dados em análises práticas e eficientes.',
+    imagem: 'https://images2.imgbox.com/a7/3a/qG7Jl9Dj_o.png',
+    link: 'https://www.youtube.com/playlist?list=PLRCKdG6PaMS1vHO0uN_bh6olWjv2PjhFu',
+    ferramenta: 'Python',
+    tipo: 'Curso'
+  },
+  {
+    nome_do_curso: 'Curso: Curso Completo de SQL: PostgreSQL, Python e Docker Data Engineer Help',
+    descrição: 'Aprenda SQL do zero com PostgreSQL e avance para integrações práticas com Python e Docker no mundo dos dados Data Engineer Help',
+    imagem: 'https://images2.imgbox.com/0b/9c/undIHOQC_o.jpg',
+    link: 'https://www.youtube.com/watch?v=Q1OouIcI9YA&t=3s',
+    ferramenta: 'Python',
+    tipo: 'Curso'
+  },
+  {
     nome_do_curso: 'Curso de Python moderno + Análise de dados DataV',
     descrição: 'Python Moderno + Análise de Dados – DataV Aprenda Python moderno e análise de dados de forma prática, criando insights e relatórios que impressionam desde o início.',
     imagem: 'https://i.ytimg.com/vi/3U9vo9sgG_0/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDRsx_6bWQbp4J00wbj2_z2QnAtSA',
