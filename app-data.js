@@ -202,7 +202,7 @@ const curso = [
     nome_do_curso: 'Curso: Curso Completo de SQL: PostgreSQL, Python e Docker Data Engineer Help',
     descrição: 'Aprenda SQL do zero com PostgreSQL e avance para integrações práticas com Python e Docker no mundo dos dados Data Engineer Help',
     imagem: 'https://images2.imgbox.com/0b/9c/undIHOQC_o.jpg',
-    link: 'https://www.youtube.com/watch?v=Q1OouIcI9YA&t=3s',
+    link: 'https://youtu.be/Q1OouIcI9YA?si=3_BtjUpriSgcj1Ep',
     ferramenta: 'Python',
     tipo: 'Curso'
   },
