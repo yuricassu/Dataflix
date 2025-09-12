@@ -199,14 +199,6 @@ const curso = [
     tipo: 'Curso'
   },
   {
-    nome_do_curso: 'Curso: Curso Completo de SQL: PostgreSQL, Python e Docker Data Engineer Help',
-    descrição: 'Aprenda SQL do zero com PostgreSQL e avance para integrações práticas com Python e Docker no mundo dos dados Data Engineer Help',
-    imagem: 'https://images2.imgbox.com/0b/9c/undIHOQC_o.jpg',
-    link: 'https://youtu.be/Q1OouIcI9YA?si=3_BtjUpriSgcj1Ep',
-    ferramenta: 'Python',
-    tipo: 'Curso'
-  },
-  {
     nome_do_curso: 'Curso de Python moderno + Análise de dados DataV',
     descrição: 'Python Moderno + Análise de Dados – DataV Aprenda Python moderno e análise de dados de forma prática, criando insights e relatórios que impressionam desde o início.',
     imagem: 'https://i.ytimg.com/vi/3U9vo9sgG_0/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDRsx_6bWQbp4J00wbj2_z2QnAtSA',
