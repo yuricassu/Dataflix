@@ -205,7 +205,24 @@ const curso = [
     link: 'https://www.youtube.com/playlist?list=PLLWTDkRZXQa9YyC1LMbuDTz3XVC4E9ZQA',
     ferramenta: 'Python',
     tipo: 'Curso'
+  },
+  {
+    nome_do_curso: 'FormaQlik Data Squad',
+    descrição: 'Capacitação prática em Qlik para transformar dados em análises visuais e decisões inteligentes.',
+    imagem: 'https://i.ytimg.com/vi/JQgFWHU6x0A/hqdefault.jpg?sqp=-oaymwExCNACELwBSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYRiBWKGUwDw==&rs=AOn4CLAst3xbQpHpQWBwbh9lkW6x2uB9jA',
+    link: 'https://www.youtube.com/playlist?list=PLPAlZw8xZuOVC6FFkeqIHlsam4naJCAEM',
+    ferramenta: 'Qlik',
+    tipo: 'Curso'
+  },
+   {
+    nome_do_curso: 'Alfabetização de Dados Data Squad'
+    descrição: 'Aprenda a compreender, interpretar e usar dados no dia a dia para decisões mais assertivas.'
+    imagem: 'https://i.ytimg.com/vi/LbMLomCXs-g/hqdefault.jpg?sqp=-oaymwExCNACELwBSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYZSBeKEowDw==&rs=AOn4CLD4AnVvpDFIrAyZb6To_dO2YRB-4Q'
+    link: 'https://www.youtube.com/playlist?list=PLPAlZw8xZuOUK0Nq6AWxxZbzG2c_nEtDL',
+    ferramenta: 'Alfabetezação de Dados',
+    tipo: 'Curso'
   }
+  
 ];
 
 const ferramenta = [
