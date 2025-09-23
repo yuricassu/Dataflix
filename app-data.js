@@ -215,9 +215,9 @@ const curso = [
     tipo: 'Curso'
   },
    {
-    nome_do_curso: 'Alfabetização de Dados Data Squad'
-    descrição: 'Aprenda a compreender, interpretar e usar dados no dia a dia para decisões mais assertivas.'
-    imagem: 'https://i.ytimg.com/vi/LbMLomCXs-g/hqdefault.jpg?sqp=-oaymwExCNACELwBSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYZSBeKEowDw==&rs=AOn4CLD4AnVvpDFIrAyZb6To_dO2YRB-4Q'
+    nome_do_curso: 'Alfabetização de Dados Data Squad',
+    descrição: 'Aprenda a compreender, interpretar e usar dados no dia a dia para decisões mais assertivas.',
+    imagem: 'https://i.ytimg.com/vi/LbMLomCXs-g/hqdefault.jpg?sqp=-oaymwExCNACELwBSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYZSBeKEowDw==&rs=AOn4CLD4AnVvpDFIrAyZb6To_dO2YRB-4Q',
     link: 'https://www.youtube.com/playlist?list=PLPAlZw8xZuOUK0Nq6AWxxZbzG2c_nEtDL',
     ferramenta: 'Alfabetezação de Dados',
     tipo: 'Curso'
