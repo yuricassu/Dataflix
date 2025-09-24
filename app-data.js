@@ -47,7 +47,7 @@ const curso = [
     tipo: 'Curso'
   },
   {
-    nome_do_curso: 'Minicurso Gratuito de Power BI Karina Lagos',
+    nome_do_curso: 'Minicurso Gratuito de Power BI Karina Lago',
     descrição: 'Mini Curso de Power BI – com Karine Lagos Aprenda, em poucas aulas, como transformar dados em dashboards claros e profissionais. Simples, rápido e direto ao ponto!',
     imagem: 'https://images2.imgbox.com/1f/89/XzpXXiUG_o.png',
     link: 'https://www.youtube.com/playlist?list=PLV-9aagMq_koO4Od7H8_SiowraQDI5gET',
@@ -207,7 +207,7 @@ const curso = [
     tipo: 'Curso'
   },
   {
-    nome_do_curso: 'FormaQlik Data Squad',
+    nome_do_curso: 'Forma Qlik Data Squad',
     descrição: 'Capacitação prática em Qlik para transformar dados em análises visuais e decisões inteligentes.',
     imagem: 'https://i.ytimg.com/vi/JQgFWHU6x0A/hqdefault.jpg?sqp=-oaymwExCNACELwBSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYRiBWKGUwDw==&rs=AOn4CLAst3xbQpHpQWBwbh9lkW6x2uB9jA',
     link: 'https://www.youtube.com/playlist?list=PLPAlZw8xZuOVC6FFkeqIHlsam4naJCAEM',
@@ -401,7 +401,7 @@ const featured = [
     tipo: 'Curso'
   },
   {
-    nome_do_curso: 'Mini Curso de Power BI – com Karine Lagos',
+    nome_do_curso: 'Mini Curso de Power BI – com Karine Lago',
     descrição: 'Aprenda, em poucas aulas, como transformar dados em dashboards',
     imagem: 'https://images2.imgbox.com/c3/3c/CZaOMrgT_o.png',
     link: '/courses/3',
