@@ -26,8 +26,8 @@ const groupedCourses = {
   'Power BI': allCourses.filter((c) => c.ferramenta.toLowerCase() === 'power bi'),
   SQL: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'sql'),
   Python: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'python'),
-  Qlik: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'Qlik'),
-  'Alfabetezação de Dados': allCourses.filter((c) => c.ferramenta.toLowerCase() === 'Alfabetezação de Dados'),
+  Qlik: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'qlik'),
+  'Alfabetezação de Dados': allCourses.filter((c) => c.ferramenta.toLowerCase() === 'alfabetezação de dados'),
 
 };
 
