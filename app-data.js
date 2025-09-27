@@ -221,6 +221,110 @@ const curso = [
     link: 'https://www.youtube.com/playlist?list=PLPAlZw8xZuOUK0Nq6AWxxZbzG2c_nEtDL',
     ferramenta: 'Alfabetezação de Dados',
     tipo: 'Curso'
+  },
+  {
+    nome_do_curso: "Excel para Iniciantes | Curso de Excel Online",
+    descrição: "Aprenda os primeiros passos no Excel e domine as funções essenciais com o Curso de Excel Online.",
+    imagem: "https://i.ytimg.com/vi/swSHyZQDAuw/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCC5B_JzZlXjdVx6eVb4q8RbR4_Tw",
+    link: "https://www.youtube.com/playlist?list=PLUA91x6QVggADOVVc46czq_9rcKvATuTK",
+    ferramenta: "Excel",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Excel Básico | Ninja do Excel",
+    descrição: "Aprenda a usar o Excel desde o início com dicas práticas do Ninja do Excel.",
+    imagem: "https://i.ytimg.com/vi/I2taMQ3j6qo/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA2iX1FoF3_HCoXVx-cYOkouE9raQ",
+    link: "https://www.youtube.com/playlist?list=PL_Q1UZN6PAWqrBdTnR7blwmzGXmkPzMVY",
+    ferramenta: "Excel",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Excel Avançado | Ninja do Excel",
+    descrição: "Domine recursos avançados do Excel com as técnicas práticas do Ninja do Excel.",
+    imagem: "https://i.ytimg.com/vi/CaJQt_hKqcM/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDHYDQBJVDuFhzCHc1N115hd_fchg",
+    link: "https://www.youtube.com/playlist?list=PL_Q1UZN6PAWq9iKvdVmytq4YzeAanvlFY",
+    ferramenta: "Excel",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Excel Essencial | Curso em Vídeo",
+    descrição: "Aprenda os fundamentos do Excel de forma simples e prática com o Curso em Vídeo.",
+    imagem: "https://i.ytimg.com/vi/ZVURQLXZtIc/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDMmPkOk-J1yetvlbKibyxV3J_BBw",
+    link: "https://www.youtube.com/playlist?list=PLHz_AreHm4dkRZoc0-i4sQeot_62qKi4a",
+    ferramenta: "Excel",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Excel Básico 2025 | Atuar Cursos",
+    descrição: "Inicie no Excel com as aulas didáticas e práticas do Atuar Cursos.",
+    imagem: "https://i.ytimg.com/vi/ROmND0UfXMc/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCBfgI2YKrGsKxrCKIo9OIKsZDDEA",
+    link: "https://www.youtube.com/playlist?list=PL2R8YcMHAQXPb5v1jtpMTvpMrHQpprFm5",
+    ferramenta: "Excel",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Excel | Hashtag Treinamentos",
+    descrição: "Aprenda Excel do básico ao avançado com os métodos práticos da Hashtag Treinamentos.",
+    imagem: "https://i.ytimg.com/vi/fmKp1GRciNo/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA8Qj84VrFE-7wWvqfuQgkB-HPNiQ",
+    link: "https://www.youtube.com/playlist?list=PLxjKFMYkZ9OeT2u74pCp7kKVm9hDt_B-z",
+    ferramenta: "Excel",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Qlik Sense Básico: Usuário Final | TENSINI Analytics Tricks",
+    descrição: "Aprenda a explorar e analisar dados no Qlik Sense com o passo a passo do TENSINI Analytics Tricks.",
+    imagem: "https://i.ytimg.com/vi/CeNWiA8V1CI/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLChYzIQp6lGaSvped_4sDRu7YhVww",
+    link: "https://www.youtube.com/playlist?list=PL2_XjT-JJFXuBHv7HD9xVYWDaRNiId9gh",
+    ferramenta: "Qlik",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Curso Completo de Tableau | Prime Cursos do Brasil",
+    descrição: "Aprenda a criar dashboards profissionais e analisar dados com o Prime Cursos do Brasil.",
+    imagem: "https://i.ytimg.com/vi/zXRUkKvikYQ/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAnRZPodFTFCp2FxWOLn3ClCEmeEw",
+    link: "https://www.youtube.com/playlist?list=PLFKhhNd35zq8HXxnri_V4nm2AhB9X5UAf",
+    ferramenta: "Qlik",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Tableau com Certificado | Geração Analítica",
+    descrição: "Aprenda a criar visualizações e dashboards em Tableau com o Geração Analítica.",
+    imagem: "https://i.ytimg.com/vi/yOZfRWS1ZqY/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAhpgTlzMTXlY-hZGCCheiTEyjHUw",
+    link: "https://www.youtube.com/playlist?list=PL3Fmwz_E1hXQboyFGnvH_k9ARJKyTFaNp",
+    ferramenta: "Tableau",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "R para Iniciantes (Básico) | Prática de Dados",
+    descrição: "Aprenda os fundamentos da linguagem R e análise de dados com o Prática de Dados.",
+    imagem: "https://i.ytimg.com/vi/qD2hdd5A00I/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA7vxIPsqQSOgd8iU16ovQ8F32zxg",
+    link: "https://www.youtube.com/playlist?list=PLdgQgS44-x14C2N_Em0rL2nm5qJYLgwEK",
+    ferramenta: "R",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "R para Iniciantes | Didática Tech",
+    descrição: "Aprenda os conceitos básicos da linguagem R e análise de dados com o Didática Tech.",
+    imagem: "https://i.ytimg.com/vi/tfPsmDzS74c/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA0glSRTKAZxr4fgLgmeA3pHV02Kw",
+    link: "https://www.youtube.com/playlist?list=PLyqOvdQmGdTQ5dE6hSD7ZGBu8bud70wYf",
+    ferramenta: "R",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "R para Iniciantes | Psicometria Online",
+    descrição: "Aprenda os fundamentos da linguagem R e técnicas iniciais de análise de dados com o Psicometria Online.",
+    imagem: "https://i.ytimg.com/vi/twowhSibuXw/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBCPUCWuHI3P7HQiT0NEq7elqkOtQ",
+    link: "https://www.youtube.com/playlist?list=PLs7DH7eMtNjcfzzZT6beLu0nmSr2yIhIr",
+    ferramenta: "R",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Programação em R para Análise de Dados | Bóson Treinamentos",
+    descrição: "Aprenda a programar em R e realizar análises de dados práticas com o Bóson Treinamentos.",
+    imagem: "https://i.ytimg.com/vi/fNV_eE8LnW8/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA1eBj05eL-t56FlwHvXscL3S5pWA",
+    link: "https://www.youtube.com/playlist?list=PLucm8g_ezqNq0RMHvzZ8M32xhopFhmsr6",
+    ferramenta: "R",
+    tipo: "Curso"
   }
   
 ];

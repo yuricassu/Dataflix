@@ -28,6 +28,9 @@ const groupedCourses = {
   Python: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'python'),
   Qlik: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'qlik'),
   'Alfabetezação de Dados': allCourses.filter((c) => c.ferramenta.toLowerCase() === 'alfabetezação de dados'),
+  Excel: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'excel'),
+  Tableau: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'tableau'),
+  R: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'r'),
 
 };
 
