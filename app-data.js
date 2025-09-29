@@ -283,7 +283,7 @@ const curso = [
     descrição: "Aprenda a criar dashboards profissionais e analisar dados com o Prime Cursos do Brasil.",
     imagem: "https://i.ytimg.com/vi/zXRUkKvikYQ/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAnRZPodFTFCp2FxWOLn3ClCEmeEw",
     link: "https://www.youtube.com/playlist?list=PLFKhhNd35zq8HXxnri_V4nm2AhB9X5UAf",
-    ferramenta: "Qlik",
+    ferramenta: "Tableau",
     tipo: "Curso"
   },
   {
