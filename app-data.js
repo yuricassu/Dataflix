@@ -146,7 +146,7 @@ const curso = [
     nome_do_curso: 'Curso Gratuito SQL para Analistas – Ronan Vico',
     descrição: 'Curso Gratuito SQL para Analistas – Ronan Vico Aprenda SQL do zero e comece a analisar dados de forma prática, totalmente gratuito e voltado para analistas.',
     imagem: 'https://images2.imgbox.com/2b/85/t0eu0obD_o.png',
-    link: 'http://youtube.com/playlist?list=PLmOO8X35BgB1G8zcrw3toMm8YrVqF2z12',
+    link: 'https://www.youtube.com/playlist?list=PLmOO8X35BgB1G8zcrw3toMm8YrVqF2z12',
     ferramenta: 'SQL',
     tipo: 'Curso'
   },
@@ -329,12 +329,40 @@ const curso = [
   
 ];
 
+const cursoprograma  = [
+ 
+  {
+    nome_do_curso: 'Curso JavaScript',
+    descrição: 'Curso de JavaScript básico',
+    imagem: 'https://i.ytimg.com/vi/vEwPnjqWQ-g/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDkTOV0l-Eg99hv3hBCP8AXdxC_xA',
+    link: 'https://www.youtube.com/playlist?list=PL2Fdisxwzt_d590u3uad46W-kHA0PTjjw',
+    ferramenta: 'JavaScript',
+    tipo: 'Curso'
+  },
+];
+
 const ferramenta = [
   {
     nome_do_curso: 'Documentador de Power BI Dataflix',
     descrição: 'Documentador de Power BI – Dataflix Organize, documente e entenda seus relatórios e dashboards do Power BI de forma prática e rápida.',
     imagem: 'https://images2.imgbox.com/ce/ab/UMxtloDG_o.png',
     link: 'https://documentadorpowerbi.onrender.com/home',
+    ferramenta: 'Power bi',
+    tipo: 'Ferramenta'
+  },
+   {
+    nome_do_curso: 'Versionador do Power BI Dataflix',
+    descrição: 'Compare diferentes versões de relatórios Power BI e identifique alterações de forma rápida com o Dataflix.',
+    imagem: 'https://images2.imgbox.com/4a/26/rvRjKoz5_o.png',
+    link: 'https://comparador-power-bi.onrender.com/',
+    ferramenta: 'Power bi',
+    tipo: 'Ferramenta'
+  },
+   {
+    nome_do_curso: 'Auditoria do Power BI Dataflix',
+    descrição: 'Verifique automaticamente a qualidade e conformidade dos seus relatórios Power BI com o Dataflix.',
+    imagem: 'https://images2.imgbox.com/18/94/MaB2H6kD_o.png',
+    link: 'https://auditoria-power-bi.onrender.com/',
     ferramenta: 'Power bi',
     tipo: 'Ferramenta'
   },
@@ -546,6 +574,7 @@ const featured = [
 module.exports = {
   certificação,
   curso,
+  cursoprograma,
   ferramenta,
   livros,
   featured

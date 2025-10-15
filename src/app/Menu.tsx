@@ -20,7 +20,10 @@ export default function Menu() {
         {/* Desktop Links */}
         <div className="hidden md:flex space-x-6">
           <Link href="/courses" className="text-white hover:text-red-600 font-medium">
-            Cursos
+            Cursos de Dados
+          </Link>
+          <Link href="/programming-courses" className="text-white hover:text-red-600 font-medium">
+            Cursos de Programação
           </Link>
           <Link href="/tools" className="text-white hover:text-red-600 font-medium">
             Ferramentas
@@ -43,7 +46,10 @@ export default function Menu() {
       {isOpen && (
         <div className="absolute top-16 right-0 w-48 bg-black flex flex-col space-y-2 px-4 py-4 md:hidden shadow-lg z-50">
           <Link href="/courses" className="text-white hover:text-red-600" onClick={() => setIsOpen(false)}>
-            Cursos
+            Cursos de Dados
+          </Link>
+          <Link href="/programming-courses" className="text-white hover:text-red-600 font-medium">
+            Cursos de Programação
           </Link>
           <Link href="/tools" className="text-white hover:text-red-600" onClick={() => setIsOpen(false)}>
             Ferramentas

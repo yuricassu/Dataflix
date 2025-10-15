@@ -67,7 +67,7 @@ export default function CoursesSection() {
     <section className="py-12 w-full bg-[#141414] relative">
       {/* Section Header */}
       <div className="flex items-center justify-between px-4 mb-6">
-        <h2 className="text-xl font-bold text-white">Cursos</h2>
+        <h2 className="text-xl font-bold text-white">Cursos de Dados</h2>
         <Link
           href="/courses"
           className="text-white font-semibold hover:underline"

@@ -2,22 +2,22 @@
 
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import { ferramenta } from '../../app-data.js';
+import { cursoprograma } from '../../app-data.js';
 
-interface Tool {
+interface Courseprograma {
   id: number;
   title: string;
   image: string;
 }
 
-// Todos os itens
-const featuredTools: Tool[] = ferramenta.map((t, index) => ({
+// Todos os cursos
+const featuredCourses: Courseprograma[] = cursoprograma.map((c, index) => ({
   id: index + 1,
-  title: t.nome_do_curso,
-  image: t.imagem,
+  title: c.nome_do_curso,
+  image: c.imagem,
 }));
 
-export default function ToolsSection() {
+export default function CursoProgramaSection() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const containerRef = useRef<HTMLDivElement | null>(null);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
@@ -26,7 +26,7 @@ export default function ToolsSection() {
     if (timerRef.current) clearInterval(timerRef.current);
     timerRef.current = setInterval(() => {
       setCurrentIndex((prevIndex) =>
-        prevIndex === featuredTools.length - 1 ? 0 : prevIndex + 1
+        prevIndex === featuredCourses.length - 1 ? 0 : prevIndex + 1
       );
     }, 4000);
   };
@@ -51,14 +51,14 @@ export default function ToolsSection() {
 
   const goToPrevious = () => {
     setCurrentIndex((prev) =>
-      prev === 0 ? featuredTools.length - 1 : prev - 1
+      prev === 0 ? featuredCourses.length - 1 : prev - 1
     );
     startAutoScroll();
   };
 
   const goToNext = () => {
     setCurrentIndex((prev) =>
-      prev === featuredTools.length - 1 ? 0 : prev + 1
+      prev === featuredCourses.length - 1 ? 0 : prev + 1
     );
     startAutoScroll();
   };
@@ -67,12 +67,12 @@ export default function ToolsSection() {
     <section className="py-12 w-full bg-[#141414] relative">
       {/* Section Header */}
       <div className="flex items-center justify-between px-4 mb-6">
-        <h2 className="text-xl font-bold text-white">Ferramentas de Dados</h2>
+        <h2 className="text-xl font-bold text-white">Cursos de Programação</h2>
         <Link
-          href="/tools"
+          href="/programming-courses"
           className="text-white font-semibold hover:underline"
         >
-          Ver Todas
+          Ver Todos
         </Link>
       </div>
 
@@ -82,21 +82,21 @@ export default function ToolsSection() {
           ref={containerRef}
           className="flex gap-4 overflow-x-auto scrollbar-hide px-4 pb-4 scroll-smooth"
         >
-          {featuredTools.map((tool) => (
+          {featuredCourses.map((coursedev) => (
             <Link
-              key={tool.id}
-              href={`/tools/${tool.id}`}
+              key={coursedev.id}
+              href={`/programming-courses/${coursedev.id}`}
               className="flex-shrink-0 w-64 sm:w-72 md:w-80"
             >
               <div className="aspect-[16/10] w-full overflow-hidden rounded-md bg-white shadow-sm ring-1 ring-gray-200">
                 <img
-                  src={tool.image}
-                  alt={tool.title}
+                  src={coursedev.image}
+                  alt={coursedev.title}
                   className="h-full w-full object-cover transition-transform duration-200 group-hover:scale-105"
                 />
               </div>
               <div className="mt-2 truncate text-sm font-medium text-white">
-                {tool.title}
+                {coursedev.title}
               </div>
             </Link>
           ))}

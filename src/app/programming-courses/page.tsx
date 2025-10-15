@@ -2,22 +2,53 @@
 
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import { ferramenta } from '../../app-data.js';
+import { cursoprograma } from '../../../app-data.js';
 
-interface Tool {
+interface Courseprograma {
   id: number;
   title: string;
   image: string;
+  ferramenta: string;
 }
 
-// Todos os itens
-const featuredTools: Tool[] = ferramenta.map((t, index) => ({
-  id: index + 1,
-  title: t.nome_do_curso,
-  image: t.imagem,
-}));
+// Filtrar apenas cursos
+const allCourses: Courseprograma[] = cursoprograma
+  .filter((c) => c.tipo === 'Curso')
+  .map((c, index) => ({
+    id: index + 1,
+    title: c.nome_do_curso,
+    image: c.imagem,
+    ferramenta: c.ferramenta,
+  }));
 
-export default function ToolsSection() {
+// Agrupar por ferramenta
+const groupedCourses = {
+  JavaScript: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'javascript'),
+
+};
+
+export default function CoursesPage() {
+  return (
+    <div className="bg-[#141414] min-h-screen text-white">
+      <div className="container  px-4 py-6 text-left">
+        <h1 className="text-4xl font-bold tracking-tight">Todos os Cursos</h1>
+        <p className="mt-2 text-gray-300">Explore nossa coleção completa de cursos de tecnologia.</p>
+      </div>
+
+      {/* Carrosséis por ferramenta */}
+      {Object.entries(groupedCourses).map(([ferramenta, courses]) => (
+        <CourseCarousel key={ferramenta} title={ferramenta} courses={courses} />
+      ))}
+    </div>
+  );
+}
+
+interface CarouselProps {
+  title: string;
+  courses: Courseprograma[];
+}
+
+function CourseCarousel({ title, courses }: CarouselProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const containerRef = useRef<HTMLDivElement | null>(null);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
@@ -26,7 +57,7 @@ export default function ToolsSection() {
     if (timerRef.current) clearInterval(timerRef.current);
     timerRef.current = setInterval(() => {
       setCurrentIndex((prevIndex) =>
-        prevIndex === featuredTools.length - 1 ? 0 : prevIndex + 1
+        prevIndex === courses.length - 1 ? 0 : prevIndex + 1
       );
     }, 4000);
   };
@@ -36,7 +67,7 @@ export default function ToolsSection() {
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
     };
-  }, []);
+  }, [courses.length]);
 
   useEffect(() => {
     if (containerRef.current) {
@@ -51,29 +82,23 @@ export default function ToolsSection() {
 
   const goToPrevious = () => {
     setCurrentIndex((prev) =>
-      prev === 0 ? featuredTools.length - 1 : prev - 1
+      prev === 0 ? courses.length - 1 : prev - 1
     );
     startAutoScroll();
   };
 
   const goToNext = () => {
     setCurrentIndex((prev) =>
-      prev === featuredTools.length - 1 ? 0 : prev + 1
+      prev === courses.length - 1 ? 0 : prev + 1
     );
     startAutoScroll();
   };
 
   return (
-    <section className="py-12 w-full bg-[#141414] relative">
+    <section className="py-12 w-full relative">
       {/* Section Header */}
-      <div className="flex items-center justify-between px-4 mb-6">
-        <h2 className="text-xl font-bold text-white">Ferramentas de Dados</h2>
-        <Link
-          href="/tools"
-          className="text-white font-semibold hover:underline"
-        >
-          Ver Todas
-        </Link>
+      <div className="flex items-center justify-start px-4 mb-6">
+        <h2 className="text-2xl font-bold text-white">{title}</h2>
       </div>
 
       {/* Carousel */}
@@ -82,21 +107,21 @@ export default function ToolsSection() {
           ref={containerRef}
           className="flex gap-4 overflow-x-auto scrollbar-hide px-4 pb-4 scroll-smooth"
         >
-          {featuredTools.map((tool) => (
+          {courses.map((coursedev) => (
             <Link
-              key={tool.id}
-              href={`/tools/${tool.id}`}
+              key={coursedev.id}
+              href={`/programming-courses/${coursedev.id}`}
               className="flex-shrink-0 w-64 sm:w-72 md:w-80"
             >
               <div className="aspect-[16/10] w-full overflow-hidden rounded-md bg-white shadow-sm ring-1 ring-gray-200">
                 <img
-                  src={tool.image}
-                  alt={tool.title}
+                  src={coursedev.image}
+                  alt={coursedev.title}
                   className="h-full w-full object-cover transition-transform duration-200 group-hover:scale-105"
                 />
               </div>
               <div className="mt-2 truncate text-sm font-medium text-white">
-                {tool.title}
+                {coursedev.title}
               </div>
             </Link>
           ))}
