@@ -332,13 +332,456 @@ const curso = [
 const cursoprograma  = [
  
   {
-    nome_do_curso: 'Curso JavaScript',
-    descrição: 'Curso de JavaScript básico',
-    imagem: 'https://i.ytimg.com/vi/vEwPnjqWQ-g/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDkTOV0l-Eg99hv3hBCP8AXdxC_xA',
-    link: 'https://www.youtube.com/playlist?list=PL2Fdisxwzt_d590u3uad46W-kHA0PTjjw',
-    ferramenta: 'JavaScript',
-    tipo: 'Curso'
+    nome_do_curso: "JavaScript e ECMAScript para Iniciantes | Curso em Vídeo",
+    descrição: "Aprenda JavaScript do zero e entenda os fundamentos do ECMAScript com o Curso em Vídeo.",
+    imagem: "https://i.ytimg.com/vi/BXqUH86F-kA/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBltGuJn6JWd5Q5oDZ1QeNR__5cNw",
+    link: "https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1",
+    ferramenta: "JavaScript",
+    tipo: "Curso"
   },
+  {
+    nome_do_curso: "JavaScript | DevClub",
+    descrição: "Aprenda JavaScript na prática e desenvolva suas primeiras aplicações com o DevClub.",
+    imagem: "https://i.ytimg.com/vi/UVLT52VcRkY/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBt1YDqy-TVBke8NyaLDwUOLVTahg",
+    link: "https://www.youtube.com/playlist?list=PLsFVybaG4mODFwCuV06yLitVTikKF09sy",
+    ferramenta: "JavaScript",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "JavaScript | Matheus Battisti - Hora de Codar",
+    descrição: "Aprenda JavaScript do zero e crie projetos práticos com o Matheus Battisti - Hora de Codar.",
+    imagem: "https://i.ytimg.com/vi/TkD0QMyBa28/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBmwloGYr9I3QN60TY32nbEwkDpXA",
+    link: "https://www.youtube.com/playlist?list=PLnDvRpP8BneysKU8KivhnrVaKpILD3gZ6",
+    ferramenta: "JavaScript",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "JavaScript do Zero | Fernanda Kipper",
+    descrição: "Aprenda JavaScript desde o início com explicações simples e diretas da Fernanda Kipper.",
+    imagem: "https://i.ytimg.com/vi/mo3fpbW_eTA/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLApUXyRbYJXsONbZMPD1UfJ7QEb4A",
+    link: "https://www.youtube.com/playlist?list=PLNCSWIsR6ADKWoR5NaIu6OEBdII3-EnsK",
+    ferramenta: "JavaScript",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "JavaScript | Rafaella Ballerini",
+    descrição: "Aprenda os fundamentos do JavaScript e desenvolva seus primeiros projetos com a Rafaella Ballerini.",
+    imagem: "https://i.ytimg.com/vi/RjfhRZXB_U8/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBTlKzABwOis_CNpDUuS2JEja6nEA",
+    link: "https://www.youtube.com/playlist?list=PLhkO7OMKgT_rRK3qvJsZAy3jrkupOxD_h",
+    ferramenta: "JavaScript",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Java + Spring Completo e Gratuito | Fernanda Kipper",
+    descrição: "Aprenda Java e o framework Spring do zero com as aulas práticas da Fernanda Kipper.",
+    imagem: "https://i.ytimg.com/vi/nODe5lFcGpg/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD4Vkcp6HYs77ElPtEvGt74eTEgiw",
+    link: "https://www.youtube.com/playlist?list=PLNCSWIsR6ADI_wMAx9F-Iu8Hs9HHxj4sb",
+    ferramenta: "Java",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Java para Iniciantes | Curso em Vídeo",
+    descrição: "Aprenda os fundamentos da linguagem Java e dê seus primeiros passos na programação com o Curso em Vídeo.",
+    imagem: "https://i.ytimg.com/vi/sTX0UEplF54/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAieJQq_q-Nt9HHH1tZ6UgcyCB6dA",
+    link: "https://www.youtube.com/playlist?list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR",
+    ferramenta: "Java",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Java 1: Estruturado | Academia dos Devs",
+    descrição: "Aprenda a programar em Java de forma estruturada com o passo a passo da Academia dos Devs.",
+    imagem: "https://i.ytimg.com/vi/UrngDhDv1IM/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBRo0RY2IoRuJkjnYs3qe3hIVK1zg",
+    link: "https://www.youtube.com/playlist?list=PLGPluF_nhP9p6zWTN88ZJ1q9J_ZK148-f",
+    ferramenta: "Java",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Java 2: Orientado a Objetos | Academia dos Devs",
+    descrição: "Aprenda os princípios da Programação Orientada a Objetos em Java com a Academia dos Devs.",
+    imagem: "https://i.ytimg.com/vi/kO98I2kuXz4/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCvQFmZCBb_ynbTX8XYX7AP8wrXjg",
+    link: "https://www.youtube.com/playlist?list=PLGPluF_nhP9oNl6vAwapJNqkWA8_CxRuy",
+    ferramenta: "Java",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Java - Programação | Tiago Aguiar",
+    descrição: "Aprenda a programar em Java do básico ao avançado com as aulas práticas do Tiago Aguiar.",
+    imagem: "https://i.ytimg.com/vi/mRryrODqQcw/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBPVUGTe5qcDczxkifTkwTQCQWDgw",
+    link: "https://www.youtube.com/playlist?list=PLJ0AcghBBWSi6nK2CUkw9ngvwWB1gE8mL",
+    ferramenta: "Java",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Curso: PHP Moderno - Módulo 1 | Curso em Vídeo",
+    descrição: "Aprenda os fundamentos do PHP moderno e comece a desenvolver aplicações web com o Curso em Vídeo.",
+    imagem: "https://i.ytimg.com/vi/TfsO0BGvGn0/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD04ZVVqysCEPAsR-BOsHOtiqNuFg",
+    link: "https://www.youtube.com/playlist?list=PLHz_AreHm4dlFPrCXCmd5g92860x_Pbr_",
+    ferramenta: "PHP",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "PHP 8 do Zero ao Profissional | UnSet",
+    descrição: "Aprenda PHP 8 desde o básico até recursos avançados para criar aplicações completas com o UnSet.",
+    imagem: "https://i.ytimg.com/vi/O73xbQvGhHk/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDtoZmJ-2U-IGPKnOeMJ1RPckLQ2g",
+    link: "https://www.youtube.com/playlist?list=PL0N5TAOhX5E9eJ9Ix6YUIgEw3lNmaIEE9",
+    ferramenta: "PHP",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "PHP 7 do Início ao Fim | Gustavo Neitzke",
+    descrição: "Aprenda PHP 7 do básico ao avançado e desenvolva aplicações web completas com o Gustavo Neitzke.",
+    imagem: "https://i.ytimg.com/vi/ojKDwAZ82Gk/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCAX4ghUOingEMvh7ifE0h1cxmyPw",
+    link: "https://www.youtube.com/playlist?list=PLSHNk_yA5fNiDWzovipYqoDApp72buu2o",
+    ferramenta: "PHP",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Typescript em Node.js | Rincko Dev",
+    descrição: "Aprenda TypeScript aplicado ao Node.js e desenvolva aplicações modernas com o Rincko Dev.",
+    imagem: "https://i.ytimg.com/vi/4pIo-p6pX34/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB-RSFy20aw5vdFM_cSJrLgZWrjhA",
+    link: "https://www.youtube.com/playlist?list=PL9tY_tDo_Q0DOAzTaPnWYsryfNLsz1K6U",
+    ferramenta: "TypeScript",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "React 19 com TypeScript | Celke",
+    descrição: "Aprenda a criar aplicações React modernas usando TypeScript com o Celke.",
+    imagem: "https://i.ytimg.com/vi/R0bgEq8tT_A/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDQ2IUJZNpDHe5wtBy6uYEhPiLvVg",
+    link: "https://www.youtube.com/playlist?list=PLmY5AEiqDWwA95rq9NnDTvKnnF_D7_Ax0",
+    ferramenta: "TypeScript",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "TypeScript - Zero to Hero | Glaucia Lemos",
+    descrição: "Aprenda TypeScript do básico ao avançado e desenvolva aplicações robustas com a Glaucia Lemos.",
+    imagem: "https://i.ytimg.com/vi/u7K1sdnCv5Y/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAafbvKiq_bQ44zD4-_Bh7GnTXwRg",
+    link: "https://www.youtube.com/playlist?list=PLb2HQ45KP0Wsk-p_0c6ImqBAEFEY-LU9H",
+    ferramenta: "TypeScript",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Programação com Ruby | Bóson Treinamentos",
+    descrição: "Aprenda os fundamentos da linguagem Ruby e crie seus primeiros programas com o Bóson Treinamentos.",
+    imagem: "https://i.ytimg.com/vi/Kgqis_dNK7E/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCs1qG3AgQh0jFv6WVEL87PgghFmw",
+    link: "https://www.youtube.com/playlist?list=PLucm8g_ezqNqMm1gdqjZzfhAMFQ9KrhFq",
+    ferramenta: "Ruby",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Ruby para Iniciantes | Noob Code",
+    descrição: "Aprenda os conceitos básicos de Ruby e comece a programar do zero com o Noob Code.",
+    imagem: "https://i.ytimg.com/vi/bLDH3NypOVo/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBXdrF_zcixOxKwu5WaG5QLYcFV4g",
+    link: "https://www.youtube.com/playlist?list=PLnV7i1DUV_zOit4a_tEDf1_PcRd25dL7e",
+    ferramenta: "Ruby",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Ruby Completo | OneBitCode",
+    descrição: "Aprenda Ruby do zero ao avançado e desenvolva aplicações reais com o OneBitCode.",
+    imagem: "https://i.ytimg.com/vi/2js9Q_BMD-8/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBDdEmFbjNLzOlG12sd50uvwEoaYQ",
+    link: "https://www.youtube.com/playlist?list=PLdDT8if5attEOcQGPHLNIfnSFiJHhGDOZ",
+    ferramenta: "Ruby",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Ruby | OpenBootcamp",
+    descrição: "Aprenda os fundamentos da linguagem Ruby com as aulas práticas do OpenBootcamp.",
+    imagem: "https://i.ytimg.com/vi/_91ICtG7NxQ/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAegK3nnn8Xro2CYSfYDPUlMDW7Fw",
+    link: "https://www.youtube.com/playlist?list=PLkVpKYNT_U9cDvqUqVVyI_Qo2OHRr9NPs",
+    ferramenta: "Ruby",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Ruby on Rails MarketPlace API | skilldevs",
+    descrição: "Aprenda a criar uma API completa em Ruby on Rails com boas práticas como TDD, Gitflow e Swagger com o skilldevs.",
+    imagem: "https://i.ytimg.com/vi/0O93SFLMaPg/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBVT5JvKz5p16G1Fq8lbmzBTLaP9w",
+    link: "https://www.youtube.com/playlist?list=PLkjb8D53F2ilcHtYTekiLCt-RDNUSg6XV",
+    ferramenta: "Ruby on Rails",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Ruby on Rails para Iniciantes | Noob Code",
+    descrição: "Aprenda a criar suas primeiras aplicações web com Ruby on Rails com o Noob Code.",
+    imagem: "https://i.ytimg.com/vi/4r2fiwMzMq0/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAR-rsS8bjoHF5InvgT6wcZxcScZA",
+    link: "https://www.youtube.com/playlist?list=PLnV7i1DUV_zP6BV1xoy0TV5IkPcYtz6rx",
+    ferramenta: "Ruby on Rails",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Ruby on Rails 6 MVC | Paulo Eduardo Melo",
+    descrição: "Aprenda o padrão MVC e desenvolva aplicações web completas com Ruby on Rails com o Paulo Eduardo Melo.",
+    imagem: "https://i.ytimg.com/vi/rCwMlbpC7dU/hqdefault.jpg?sqp=-oaymwExCNACELwBSFryq4qpAyMIARUAAIhCGAHwAQH4AdQGgALgA4oCDAgAEAEYfyATKBUwDw==&rs=AOn4CLCVNi4uJ8RoKllQL3dHcfQrcMv-FQ",
+    link: "https://www.youtube.com/playlist?list=PLqsayW8DhUmv49CBT7AvetMplBViAcwuk",
+    ferramenta: "Ruby on Rails",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "React Completo | Desenvolvendo do Básico",
+    descrição: "Aprenda React do zero e crie aplicações modernas com o Desenvolvendo do Básico.",
+    imagem: "https://i.ytimg.com/vi/pFgApiE6ZmQ/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAbHKL9gMytbUGB8KB2FCMK1LHSYg",
+    link: "https://www.youtube.com/playlist?list=PLedVhPP7RyiKOiiGMTMYil3yTEoOxO7CK",
+    ferramenta: "React",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "React 2025: Do Zero à Prática com TypeScript | Lucas Souza Dev",
+    descrição: "Aprenda React e TypeScript do básico à prática, construindo aplicações completas com o Lucas Souza Dev.",
+    imagem: "https://i.ytimg.com/vi/ggtWTKbhN_U/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAwcZodFmtw4KbxRD0dvH95B-djig",
+    link: "https://www.youtube.com/playlist?list=PL29TaWXah3iYzP5FGywXezXm4ZvBibGSk",
+    ferramenta: "React",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "React | Lucas Caton",
+    descrição: "Aprenda os fundamentos do React e desenvolva aplicações modernas com o Lucas Caton.",
+    imagem: "https://i.ytimg.com/vi/RXn63Ae8eJY/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDSlN3KYZJznWiFCXouk73mSlC2jQ",
+    link: "https://www.youtube.com/playlist?list=PLz4HUyGp2IylMffwmaBFu2O6fzT0BI4ya",
+    ferramenta: "React",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Angular do Zero ao Avançado (v17 e v18) | Fernanda Kipper",
+    descrição: "Aprenda Angular do básico ao avançado e crie aplicações web completas com a Fernanda Kipper.",
+    imagem: "https://i.ytimg.com/vi/VumdXFJ4n7o/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAiVyoA-WcZZpptwsdkbu5NkwTLPA",
+    link: "https://www.youtube.com/playlist?list=PLNCSWIsR6ADJuQd4x6LVIC4VFMYArdg3M",
+    ferramenta: "Angular",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Angular | Matheus Battisti - Hora de Codar",
+    descrição: "Aprenda os fundamentos do Angular e desenvolva aplicações web modernas com o Matheus Battisti - Hora de Codar.",
+    imagem: "https://i.ytimg.com/vi/vJt_K1bFUeA/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBWkv5nc_XJeZ7mLDYJxcFlN02ekw",
+    link: "https://www.youtube.com/playlist?list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw",
+    ferramenta: "Angular",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Angular | Café com Bug",
+    descrição: "Aprenda Angular do zero e crie aplicações web com as aulas práticas do Café com Bug.",
+    imagem: "https://i.ytimg.com/vi/uS-vYRJDnI8/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBKpd7ilsNSb7Kxov4xdyiq42aUtA",
+    link: "https://www.youtube.com/playlist?list=PLhna1crYw0SOFqiss05ybqJCc6fvGn6BF",
+    ferramenta: "Angular",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Angular 17 | Code Dimension",
+    descrição: "Aprenda a criar aplicações web modernas utilizando Angular 17 com o Code Dimension.",
+    imagem: "https://i.ytimg.com/vi/39r_cpIN214/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD1EOHABEakHPzkRU5i6ggNK1Nm3w",
+    link: "https://www.youtube.com/playlist?list=PLXEUJjGpEX7zwdFSAzIPiSf9p0tOeI1Yu",
+    ferramenta: "Angular",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Node.js 2025: Iniciante | Stack Mobile",
+    descrição: "Aprenda os fundamentos do Node.js e desenvolva aplicações backend com o Stack Mobile.",
+    imagem: "https://i.ytimg.com/vi/p9WpBHEXTms/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDmq2Mg9c1vCy2QQZqLeQzy4Y-H5A",
+    link: "https://www.youtube.com/playlist?list=PLizN3WA8HR1w14FUaPYsP9q1nBHuTa1Dv",
+    ferramenta: "NodeJS",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "JavaScript em Node.js | Rincko Dev",
+    descrição: "Aprenda JavaScript aplicado ao Node.js e crie aplicações backend completas com o Rincko Dev.",
+    imagem: "https://i.ytimg.com/vi/lQAJ-T1QTYc/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDu329GhagIwthhwU_UuYizlFCjHw",
+    link: "https://www.youtube.com/playlist?list=PL9tY_tDo_Q0C0hs1aGgtJbEH1EBlyzZdG",
+    ferramenta: "NodeJS",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Node.js e MySQL | Ralf Lima",
+    descrição: "Aprenda a integrar Node.js com bancos de dados MySQL e desenvolver aplicações completas com o Ralf Lima.",
+    imagem: "https://i.ytimg.com/vi/n6OJXt6eTko/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCsGQ2Drr5dojj_hlhyJp8f-P1XZw",
+    link: "https://www.youtube.com/playlist?list=PLWXw8Gu52TRI5NJmexwA9qco33goFxbHK",
+    ferramenta: "NodeJS",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Python 3 - Mundo 1: Fundamentos | Curso em Vídeo",
+    descrição: "Aprenda os conceitos básicos de Python 3 e desenvolva suas primeiras aplicações com o Curso em Vídeo.",
+    imagem: "https://i.ytimg.com/vi/S9uPNppGsGo/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBdufuoJdaVhVi1j6gQJgfUqD0T8w",
+    link: "https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6",
+    ferramenta: "Python",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Python 3 - Mundo 2: Estruturas de Controle | Curso em Vídeo",
+    descrição: "Aprenda estruturas de controle em Python 3 e aprimore a lógica de programação com o Curso em Vídeo.",
+    imagem: "https://i.ytimg.com/vi/nJkVHusJp6E/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAwS7AI6zuAvotmHCJRftqv02STzA",
+    link: "https://www.youtube.com/playlist?list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye",
+    ferramenta: "Python",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Python 3 - Mundo 3: Estruturas Compostas | Curso em Vídeo",
+    descrição: "Aprenda a trabalhar com listas, tuplas e dicionários em Python 3 com o Curso em Vídeo.",
+    imagem: "https://i.ytimg.com/vi/0LB3FSfjvao/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBqol42-hNTgWiusYsmJnU7jMumAQ",
+    link: "https://www.youtube.com/playlist?list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH",
+    ferramenta: "Python",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Programação em Python (2024 - Gratuito) | Pietro Martins De Oliveira",
+    descrição: "Aprenda Python do zero com exemplos práticos e didáticos com o Pietro Martins De Oliveira.",
+    imagem: "https://i.ytimg.com/vi/wC_mwNUT48s/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBpep7ian3cwG7_0y9m6FyYe1WamA",
+    link: "https://www.youtube.com/playlist?list=PLpaKFn4Q4GMN1A4J1FnhW_anOGt8ug8ip",
+    ferramenta: "Python",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Python 2025 | Hashtag Programação",
+    descrição: "Aprenda Python do básico ao avançado com aplicações práticas com o Hashtag Programação.",
+    imagem: "https://i.ytimg.com/vi/NRFZFXT1JvM/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAfYHC4YjzeA2PWi8B9uw3JneuCDw",
+    link: "https://www.youtube.com/playlist?list=PLpdAy0tYrnKyjl4SSIkt0l6DFzMVmtfLd",
+    ferramenta: "Python",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Flask - Python Web Framework | Camp Code",
+    descrição: "Aprenda a criar aplicações web em Python usando Flask com o Camp Code.",
+    imagem: "https://i.ytimg.com/vi/IPeACm7Se9w/hqdefault.jpg?sqp=-oaymwExCNACELwBSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYLyBbKH8wDw==&rs=AOn4CLBWcYqMIJNBZFy3ovcl3fhQusnHEA",
+    link: "https://www.youtube.com/playlist?list=PL5QK1VkAg_cOC4zQc5Yg1hHDaRfp5LkKs",
+    ferramenta: "Flask",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Criando Sites em Python com Flask e MySQL | Curso de Tecnologia e Programação",
+    descrição: "Aprenda a desenvolver sites completos usando Python, Flask e MySQL com o Curso de Tecnologia e Programação.",
+    imagem: "https://i.ytimg.com/vi/__cux2CPBN4/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBgrvW06Rg1TYB4SMuWdX7MUbEL_w",
+    link: "https://www.youtube.com/playlist?list=PL2Dw5PtrD32wC32rRLJSueOFPRgekHxNG",
+    ferramenta: "Flask",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Filipe Morelli Developer Flask",
+    descrição: "Aprenda a criar aplicações web em Python utilizando Flask com o Filipe Morelli Developer.",
+    imagem: "https://i.ytimg.com/vi/MysMy8aV2NA/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCFyu8xABFrqYoykbbB644LrTrDLA",
+    link: "https://www.youtube.com/playlist?list=PLWhiA_CuQkbBhvPojHOPY81BmDt2eSfgI",
+    ferramenta: "Flask",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Django: Aprenda a Desenvolver Aplicações Web do Zero | Jefferson Lobato",
+    descrição: "Aprenda a criar aplicações web completas com Django do zero com o Jefferson Lobato.",
+    imagem: "https://i.ytimg.com/vi/ZNFVFTqaL60/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDuvadaBKeLCY5vx9HjZ34wgnsh_g",
+    link: "https://www.youtube.com/playlist?list=PLLVddSbilcumgeyk0z6ko5U_FYPfbRO2C",
+    ferramenta: "Django",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Django | OpenBootcamp",
+    descrição: "Aprenda os fundamentos do framework Django e desenvolva aplicações web com o OpenBootcamp.",
+    imagem: "https://i.ytimg.com/vi/ydlwzwOUkyE/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCe0D2Gdu4rJf_qABDphi8cpsy6Jg",
+    link: "https://www.youtube.com/playlist?list=PLkVpKYNT_U9cl3hhVg_ROOlSY33uuBWZh",
+    ferramenta: "Django",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Django API REST | UB Social",
+    descrição: "Aprenda a criar e gerenciar APIs RESTful com Django e Django REST Framework com o UB Social.",
+    imagem: "https://i.ytimg.com/vi/LX_Q-bZv204/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAOCfX4D-T87G4t-cGrE6X1hj5bhQ",
+    link: "https://www.youtube.com/playlist?list=PLnPZ9TE1Tj4BMN4I4Dce6HZ8pXiw99-gq",
+    ferramenta: "Django",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Aprenda Go 🇧🇷 | Aprenda Go",
+    descrição: "Aprenda a linguagem Go do zero e desenvolva aplicações rápidas e eficientes com o Aprenda Go.",
+    imagem: "https://i.ytimg.com/vi/WiGU_ZB-u0w/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDIIfvWT-syEsGkP6FqA3p-oDSVdQ",
+    link: "https://www.youtube.com/playlist?list=PLCKpcjBB_VlBsxJ9IseNxFllf-UFEXOdg",
+    ferramenta: "Go",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Meu Primeiro CRUD em GoLang | HunCoding",
+    descrição: "Aprenda a criar seu primeiro CRUD completo em GoLang com o HunCoding.",
+    imagem: "https://i.ytimg.com/vi/vxDqv6BKZCw/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA1dAAyNBXdY_fF8B69Uh4Jy13A-Q",
+    link: "https://www.youtube.com/playlist?list=PLm-xZWCprwYQ3gyCxJ8TR1L2ZnUOPvOpr",
+    ferramenta: "Go",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Aprenda a Programar com Go | Sidney Sousa",
+    descrição: "Aprenda os fundamentos da linguagem Go e comece a programar do zero com o Sidney Sousa.",
+    imagem: "https://i.ytimg.com/vi/VwTR7K6Cl5M/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDrTBLqgBTGQrcZA7UUwLPTKtraOw",
+    link: "https://www.youtube.com/playlist?list=PL370TvW48yBtHWGy0y9GpC3k_zrJzeEWz",
+    ferramenta: "Go",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "HTML5 e CSS3 - Módulo 1 | Curso em Vídeo",
+    descrição: "Aprenda os fundamentos de HTML5 e CSS3 e comece a criar páginas web com este módulo inicial.",
+    imagem: "https://i.ytimg.com/vi/Ejkb_YpuHWs/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA6236wbnIBXu9BMu7prRmlxLFsYw",
+    link: "https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n",
+    ferramenta: "HTML e CSS",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "HTML5 e CSS3 - Módulo 2 | Curso em Vídeo",
+    descrição: "Aprofunde seus conhecimentos em HTML5 e CSS3 e aprenda técnicas avançadas de estilização e layout neste módulo.",
+    imagem: "https://i.ytimg.com/vi/vPNIAJ9B4hg/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCmi7dKZhPURmqHr5galdXJqF_p6g",
+    link: "https://www.youtube.com/playlist?list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s",
+    ferramenta: "HTML e CSS",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "HTML5 e CSS3 - Módulo 3 | Curso em Vídeo",
+    descrição: "Aprenda recursos avançados de HTML5 e CSS3 e pratique técnicas de design e responsividade neste módulo.",
+    imagem: "https://i.ytimg.com/vi/ofFgnDtn_1c/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAe9U9Up9YfTtrbjBqe46rCtWZIFQ",
+    link: "https://www.youtube.com/playlist?list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ",
+    ferramenta: "HTML e CSS",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "HTML5 e CSS3 - Módulo 4 | Curso em Vídeo",
+    descrição: "Explore animações, transições e técnicas avançadas de CSS3 para criar páginas web interativas neste módulo.",
+    imagem: "https://i.ytimg.com/vi/zHKHMmEG9vE/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDjG09V9QgJgete4Qc88BjHWN4B4A",
+    link: "https://www.youtube.com/playlist?list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT",
+    ferramenta: "HTML e CSS",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "HTML5 e CSS3 - Módulo 5 | Curso em Vídeo",
+    descrição: "Aprenda técnicas avançadas de HTML5 e CSS3 e conclua projetos completos de páginas web neste módulo final.",
+    imagem: "https://i.ytimg.com/vi/rqvn_c2n9Eg/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDQ3p32iFD-wR3EMySG0nzdyAnj9g",
+    link: "https://www.youtube.com/playlist?list=PLHz_AreHm4dn1bAtIJWFrugl5z2Ej_52d",
+    ferramenta: "HTML e CSS",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "HTML e CSS Gratuito | Otávio Miranda",
+    descrição: "Aprenda HTML e CSS do básico ao avançado e crie páginas web completas com o Otávio Miranda.",
+    imagem: "https://i.ytimg.com/vi/bCFTv8a59PE/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD_9yoL6lokKr68f1M-r4PlMEUSYA",
+    link: "https://www.youtube.com/playlist?list=PLbIBj8vQhvm00J3f3rD33tRuNLem8EgEA",
+    ferramenta: "HTML e CSS",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Git e GitHub Gratuito | Tiago Matos",
+    descrição: "Aprenda controle de versão com Git e GitHub e gerencie seus projetos de forma profissional com o Tiago Matos.",
+    imagem: "https://i.ytimg.com/vi/2c7yWlpWDJM/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCsWe6Y_6Xi2AdAdhPVI-VrcuOrVA",
+    link: "https://www.youtube.com/playlist?list=PLcoYAcR89n-qbO7YAVj5S0alABLis_QVU",
+    ferramenta: "Git",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Git e GitHub Prático | Curso em Vídeo",
+    descrição: "Aprenda Git e GitHub de forma prática e visual, sem precisar usar o terminal, com o Curso em Vídeo.",
+    imagem: "https://i.ytimg.com/vi/xEKo29OWILE/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAdQDUYjIeHXPLwNZKngmtqgHNCMA",
+    link: "https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA",
+    ferramenta: "Git",
+    tipo: "Curso"
+  },
+  {
+    nome_do_curso: "Git: Tutoriais, Técnicas e Comandos | Fernanda Kipper",
+    descrição: "Aprenda Git na prática com tutoriais, técnicas e comandos essenciais com a Fernanda Kipper.",
+    imagem: "https://i.ytimg.com/vi/pyM5QLS2h6M/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCT_RncU2Wvc9ZckbiZqL7oYfgNtA",
+    link: "https://www.youtube.com/playlist?list=PLNCSWIsR6ADLsjELFGMXGLrdYv-EQu4L8",
+    ferramenta: "Git",
+    tipo: "Curso"
+  }
+
+
+
 ];
 
 const ferramenta = [
