@@ -765,7 +765,7 @@ const ferramenta = [
     nome_do_curso: 'Documentador de Power BI Dataflix',
     descrição: 'Documentador de Power BI – Dataflix Organize, documente e entenda seus relatórios e dashboards do Power BI de forma prática e rápida.',
     imagem: 'https://images2.imgbox.com/ce/ab/UMxtloDG_o.png',
-    link: 'https://documentadorpowerbi.onrender.com/home',
+    link: 'https://documentadorpowerbi-qq6y.onrender.com',
     ferramenta: 'Power bi',
     tipo: 'Ferramenta'
   },
