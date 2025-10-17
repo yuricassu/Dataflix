@@ -412,30 +412,6 @@ const cursoprograma  = [
     tipo: "Curso"
   },
   {
-    nome_do_curso: "Curso: PHP Moderno - Módulo 1 | Curso em Vídeo",
-    descrição: "Aprenda os fundamentos do PHP moderno e comece a desenvolver aplicações web com o Curso em Vídeo.",
-    imagem: "https://i.ytimg.com/vi/TfsO0BGvGn0/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD04ZVVqysCEPAsR-BOsHOtiqNuFg",
-    link: "https://www.youtube.com/playlist?list=PLHz_AreHm4dlFPrCXCmd5g92860x_Pbr_",
-    ferramenta: "PHP",
-    tipo: "Curso"
-  },
-  {
-    nome_do_curso: "PHP 8 do Zero ao Profissional | UnSet",
-    descrição: "Aprenda PHP 8 desde o básico até recursos avançados para criar aplicações completas com o UnSet.",
-    imagem: "https://i.ytimg.com/vi/O73xbQvGhHk/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDtoZmJ-2U-IGPKnOeMJ1RPckLQ2g",
-    link: "https://www.youtube.com/playlist?list=PL0N5TAOhX5E9eJ9Ix6YUIgEw3lNmaIEE9",
-    ferramenta: "PHP",
-    tipo: "Curso"
-  },
-  {
-    nome_do_curso: "PHP 7 do Início ao Fim | Gustavo Neitzke",
-    descrição: "Aprenda PHP 7 do básico ao avançado e desenvolva aplicações web completas com o Gustavo Neitzke.",
-    imagem: "https://i.ytimg.com/vi/ojKDwAZ82Gk/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCAX4ghUOingEMvh7ifE0h1cxmyPw",
-    link: "https://www.youtube.com/playlist?list=PLSHNk_yA5fNiDWzovipYqoDApp72buu2o",
-    ferramenta: "PHP",
-    tipo: "Curso"
-  },
-  {
     nome_do_curso: "Typescript em Node.js | Rincko Dev",
     descrição: "Aprenda TypeScript aplicado ao Node.js e desenvolva aplicações modernas com o Rincko Dev.",
     imagem: "https://i.ytimg.com/vi/4pIo-p6pX34/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB-RSFy20aw5vdFM_cSJrLgZWrjhA",

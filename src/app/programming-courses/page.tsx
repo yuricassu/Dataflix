@@ -24,6 +24,20 @@ const allCourses: Courseprograma[] = cursoprograma
 // Agrupar por ferramenta
 const groupedCourses = {
   JavaScript: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'javascript'),
+  Java: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'java'),
+  TypeScript: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'typescript'),
+  Ruby: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'ruby'),
+  'Ruby on Rails': allCourses.filter((c) => c.ferramenta.toLowerCase() === 'ruby on rails'),
+  React: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'react'),
+  Angular: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'angular'),
+  NodeJS: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'nodejs'),
+  Python: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'python'),
+  Flask: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'flask'),
+  Django: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'django'),
+  Go: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'go'),
+  'HTML e CSS': allCourses.filter((c) => c.ferramenta.toLowerCase() === 'html e css'),
+  Git: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'git'),
+
 
 };
 
