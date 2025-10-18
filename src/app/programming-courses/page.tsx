@@ -23,6 +23,7 @@ const allCourses: Courseprograma[] = cursoprograma
 
 // Agrupar por ferramenta
 const groupedCourses = {
+  'HTML e CSS': allCourses.filter((c) => c.ferramenta.toLowerCase() === 'html e css'),
   JavaScript: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'javascript'),
   Java: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'java'),
   TypeScript: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'typescript'),
@@ -35,7 +36,6 @@ const groupedCourses = {
   Flask: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'flask'),
   Django: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'django'),
   Go: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'go'),
-  'HTML e CSS': allCourses.filter((c) => c.ferramenta.toLowerCase() === 'html e css'),
   Git: allCourses.filter((c) => c.ferramenta.toLowerCase() === 'git'),
 
 
